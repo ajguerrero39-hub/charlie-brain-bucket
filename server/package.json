@@ -1,7 +1,7 @@
-
 {
   "dependencies": {
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
   },
   "name": "charlie-brain-bucket",
   "version": "1.0.0",
@@ -10,7 +10,6 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
