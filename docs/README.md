@@ -1,29 +1,77 @@
-# my generic web app framework 
-> [dev project] charlie
+# dev|golf
 
-# deployments
+### app
 
-- dev server: https://barrycumbie.github.io/charlie-brain-bucket/
-- video production server: http://34.174.66.159
 
-reference this [gist](https://gist.github.com/barrycumbie/36fff4083f20439615e1ed7811f81a3c)
+# App Name
+> short app tagline
 
-## sprint 99 / future dev ideas
+### authorship + version
 
-- check out this [milestone](https://github.com/barrycumbie/charlie-brain-bucket/milestone/1) for future dev ideas 
+`@ajguerrero39` \| `2026-09-12` \| `GOLF`
 
-## project dir/ structure 
+### deployments, codebase, & repo features 
 
-```bash
-.
-├── index.html
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── img
-│   └── js
-│       └── main.js
-├── pages
-│   └── auth.html
-└── README.md
+  resource                     link
+  ---------------------------- ----------------------
+  PROD codebase                [`main`](URL)
+  PROD server                  [GCP](URL)
+  DEV codebase                 [`dev`](URL)
+  DEV server                   [Render](URL)
+  docs                         [`docs/`](URL)
+  published docs               [GitHub Pages](URL)
+  CI/CD workflow               [`deploy.yml`](URL)
+  successful PROD deployment   [GitHub Action](URL)
+
+### user story
+
+- As a burgeoning full-stack developer,
+- **I want** a CI/CD infrastructure
+- **so that** I can develop locally, manage my code in GitHub, and
+    automatically deploy changes to DEV and PROD environments.
+
+### narrative
+
+In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
+
+### architecture
+
+``` text
+LOCAL
+  │
+  ▼
+GitHub
+  │
+  ├── dev  ──► Render ─────────► DEV
+  │
+  └── main ──► GitHub Actions ─► GCP ──► PROD
 ```
+
+### stack
+
+`HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
+`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
+
+### project structure
+
+Use `tree` to show your actual project structure.
+
+``` text
+repo/
+├── .github/
+│   └── workflows/
+├── docs/
+│   └── README.md
+├── public/
+├── server/
+├── .gitignore
+└── ...
+```
+
+### GCP
+
+external IP: `00.00.00.00`\
+Linux user: `username`\
+instructor SSH public key installed: `yes`
+
+````
