@@ -1,10 +1,7 @@
 # dev|golf
 
-### app
-
-
 # Brain-Bucket
-> short app tagline
+A practice repo for deployment
 
 ### authorship + version
 
@@ -32,7 +29,7 @@
 
 ### narrative
 
-In 2--4 sentences, briefly describe your GOLF infrastructure and whatyou built/deployed.
+I have created an architecture that allows for the deployment of this repository through Google Cloud. This is mostly setup so that future projects may follow suit.
 
 ### architecture
 
@@ -56,7 +53,7 @@ GitHub
 
 Use `tree` to show your actual project structure.
 
-``` text
+```
 repo/
 ├── .github/
 │   └── deploy-main-to-gcp.yml
