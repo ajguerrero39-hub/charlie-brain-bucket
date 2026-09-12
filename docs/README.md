@@ -58,10 +58,37 @@ repo/
 ├── docs/
 │   └── README.md
 ├── public/
-|
+|    L___ assets/
+|    |    L___css/
+|    |    |   L___style.css
+|    |    L___data/
+|    |    |   L___ideas.json
+|    |    L___js/
+|    |    |   L___admin.js
+|    |    |   L___auth-guard.js
+|    |    |   L___auth.js
+|    |    |   L___content.js
+|    |    |   L___form.js
+|    |    |   L___main.js
+|    |    L___config/
+|    |    |   L___AGENTS.md
+|    |    |   L___CHARLIE.md
+|    |    |   L___CLAUDE.md
+|    |    L___docs/
+|    |    |   L___sample-content-records.json
+|    |    |   L___session-2026-06-09-promtpts-and-overview.md
+|    |    L___pages/
+|    |    |   L___admin.html
+|    |    |   L___auth.html
+|    |    |   L___content.html
+|    |    |   L___form.html
+|    |    L___index.html
 ├── server/
+|    L___ app.js
+|    L___ package-lock.json
+|    L___ package.json
 ├── .gitignore
-└── ...
+└── 
 ```
 
 ### GCP
