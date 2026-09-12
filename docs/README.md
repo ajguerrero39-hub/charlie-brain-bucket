@@ -8,8 +8,6 @@ A practice repo for deployment
 `@ajguerrero39` \| `2026-09-12` \| `GOLF`
 
 ### deployments, codebase, & repo features 
-
-  resource                     link
   ---------------------------- ----------------------
   PROD codebase                [`main`](URL)
   PROD server                  [GCP](URL)
