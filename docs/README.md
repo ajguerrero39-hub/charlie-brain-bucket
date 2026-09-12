@@ -59,10 +59,11 @@ Use `tree` to show your actual project structure.
 ``` text
 repo/
 ├── .github/
-│   └── workflows/
+│   └── deploy-main-to-gcp.yml
 ├── docs/
 │   └── README.md
 ├── public/
+|
 ├── server/
 ├── .gitignore
 └── ...
@@ -70,8 +71,8 @@ repo/
 
 ### GCP
 
-external IP: `00.00.00.00`\
-Linux user: `username`\
+external IP: `34.138.221.123`\
+Linux user: `ajguerrero39`\
 instructor SSH public key installed: `yes`
 
 ````
