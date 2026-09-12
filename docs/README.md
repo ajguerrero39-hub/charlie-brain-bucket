@@ -3,7 +3,7 @@
 ### app
 
 
-# App Name
+# Brain-Bucket
 > short app tagline
 
 ### authorship + version
@@ -25,7 +25,7 @@
 
 ### user story
 
-- As a burgeoning full-stack developer,
+- **As a** burgeoning full-stack developer,
 - **I want** a CI/CD infrastructure
 - **so that** I can develop locally, manage my code in GitHub, and
     automatically deploy changes to DEV and PROD environments.
