@@ -18,7 +18,7 @@
   PROD server                  [GCP](URL)
   DEV codebase                 [`dev`](URL)
   DEV server                   [Render](URL)
-  docs                         [`docs/`]([URL](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs))
+  docs                         [`docs/`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs)
   published docs               [GitHub Pages](URL)
   CI/CD workflow               [`deploy.yml`](URL)
   successful PROD deployment   [GitHub Action](URL)
