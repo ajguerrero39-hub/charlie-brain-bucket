@@ -48,9 +48,6 @@ GitHub
 `GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
 
 ### project structure
-
-Use `tree` to show your actual project structure.
-
 ```
 repo/
 ├── .github/
