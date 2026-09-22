@@ -90,7 +90,7 @@ repo/
 
 ### GCP
 
-external IP: `34.138.221.123`\
+external IP: `34.162.8.204`\
 Linux user: `ajguerrero39`\
 instructor SSH public key installed: `yes`
 
