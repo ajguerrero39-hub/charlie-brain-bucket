@@ -9,7 +9,7 @@ A practice repo for deployment
 
 ### deployments, codebase, & repo features 
   ---------------------------- ----------------------
-  PROD codebase                [`main`](URL)
+  PROD codebase                [`main`](https://github.com/ajguerrero39-hub/charlie-brain-bucket)
   PROD server                  [GCP](URL)
   DEV codebase                 [`dev`](URL)
   DEV server                   [Render](URL)
