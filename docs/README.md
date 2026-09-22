@@ -11,7 +11,7 @@ A practice repo for deployment
   ---------------------------- ----------------------
   PROD codebase                [`main`](https://github.com/ajguerrero39-hub/charlie-brain-bucket)
   PROD server                  [GCP](URL)
-  DEV codebase                 [`dev`](URL)
+  DEV codebase                 [`dev`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)
   DEV server                   [Render](URL)
   docs                         [`docs/`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs)
   published docs               [GitHub Pages](https://github.com/ajguerrero39-hub/charlie-brain-bucket/deployments/github-pages)
