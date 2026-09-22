@@ -10,9 +10,9 @@ A practice repo for deployment
 ### deployments, codebase, & repo features 
   ---------------------------- ----------------------
   PROD codebase                [`main`](https://github.com/ajguerrero39-hub/charlie-brain-bucket)
-  PROD server                  [GCP](URL)
+  PROD server                  [GCP](https://anthony.barrycumbie.com/)
   DEV codebase                 [`dev`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)
-  DEV server                   [Render](URL)
+  DEV server                   [Render](https://charlie-brain-bucket.onrender.com)
   docs                         [`docs/`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs)
   published docs               [GitHub Pages](https://github.com/ajguerrero39-hub/charlie-brain-bucket/deployments/github-pages)
   CI/CD workflow               [`deploy.yml`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/.github/deploy-main-to-gcp.yml)
