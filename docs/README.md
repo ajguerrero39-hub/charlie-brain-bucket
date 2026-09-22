@@ -16,7 +16,7 @@ A practice repo for deployment
   docs                         [`docs/`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs)
   published docs               [GitHub Pages](https://github.com/ajguerrero39-hub/charlie-brain-bucket/deployments/github-pages)
   CI/CD workflow               [`deploy.yml`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/.github/deploy-main-to-gcp.yml)
-  successful PROD deployment   [GitHub Action](URL)
+  successful PROD deployment   [GitHub Action](https://github.com/ajguerrero39-hub/charlie-brain-bucket/deployments/github-pages)
 
 ### user story
 
