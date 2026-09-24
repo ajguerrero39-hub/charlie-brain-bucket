@@ -1,30 +1,97 @@
-# my generic web app framework 
-> [dev project] charlie
+# dev|golf
 
-# deployments
+# Brain-Bucket
+A practice repo for deployment
 
-- dev server: https://barrycumbie.github.io/charlie-brain-bucket/
-- video production server: http://34.174.66.159
+### authorship + version
 
-reference this [gist](https://gist.github.com/barrycumbie/36fff4083f20439615e1ed7811f81a3c)
+`@ajguerrero39` \| `2026-09-12` \| `GOLF`
 
-## sprint 99 / future dev ideas
+### deployments, codebase, & repo features 
+  ---------------------------- ----------------------
+  PROD codebase                [`main`](URL)
+  PROD server                  [GCP](URL)
+  DEV codebase                 [`dev`](URL)
+  DEV server                   [Render](URL)
+  docs                         [`docs/`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs)
+  published docs               [GitHub Pages](https://github.com/ajguerrero39-hub/charlie-brain-bucket/deployments/github-pages)
+  CI/CD workflow               [`deploy.yml`](URL)
+  successful PROD deployment   [GitHub Action](URL)
 
-- check out this [milestone](https://github.com/barrycumbie/charlie-brain-bucket/milestone/1) for future dev ideas 
+### user story
 
-## project dir/ structure 
+- **As a** burgeoning full-stack developer,
+- **I want** a CI/CD infrastructure
+- **so that** I can develop locally, manage my code in GitHub, and
+    automatically deploy changes to DEV and PROD environments.
 
-```bash
-.
-├── index.html
-├── assets
-│   ├── css
-│   │   └── style.css
-│   ├── img
-│   └── js
-│       └── main.js
-├── pages
-│   └── auth.html
-└── README.md
+### narrative
+
+I have created an architecture that allows for the deployment of this repository through Google Cloud. This is mostly setup so that future projects may follow suit.
+
+### architecture
+
+``` text
+LOCAL
+  │
+  ▼
+GitHub
+  │
+  ├── dev  ──► Render ─────────► DEV
+  │
+  └── main ──► GitHub Actions ─► GCP ──► PROD
 ```
 
+### stack
+
+`HTML/CSS/JS` \| `Node.js` \| `Express` \| `Git/GitHub` \| `Render` \|
+`GCP` \| `Linux` \| `Nginx` \| `PM2` \| `Certbot` \| `GitHub Actions`
+
+### project structure
+```
+repo/
+├── .github/
+│   └── deploy-main-to-gcp.yml
+├── docs/
+│   └── README.md
+├── public/
+|    L___ assets/
+|    |    L___css/
+|    |    |   L___style.css
+|    |    L___data/
+|    |    |   L___ideas.json
+|    |    L___js/
+|    |    |   L___admin.js
+|    |    |   L___auth-guard.js
+|    |    |   L___auth.js
+|    |    |   L___content.js
+|    |    |   L___form.js
+|    |    |   L___main.js
+|    |    L___config/
+|    |    |   L___AGENTS.md
+|    |    |   L___CHARLIE.md
+|    |    |   L___CLAUDE.md
+|    |    L___docs/
+|    |    |   L___sample-content-records.json
+|    |    |   L___session-2026-06-09-promtpts-and-overview.md
+|    |    L___pages/
+|    |    |   L___admin.html
+|    |    |   L___auth.html
+|    |    |   L___content.html
+|    |    |   L___form.html
+|    |    L___index.html
+├── server/
+|    L___ app.js
+|    L___ package-lock.json
+|    L___ package.json
+├── .gitignore
+└── 
+```
+
+### GCP
+
+external IP: `34.138.221.123`\
+Linux user: `ajguerrero39`\
+instructor SSH public key installed: `yes`
+
+````
