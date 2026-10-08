@@ -5,7 +5,7 @@ A practice repo for deployment
 
 ### authorship + version
 
-`@ajguerrero39` \| `2026-09-12` \| `GOLF`
+`@ajguerrero39` \| `2026-09-12` \| `HOTEL`
 
 ### deployments, codebase, & repo features 
   ---------------------------- ----------------------
