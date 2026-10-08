@@ -5,18 +5,25 @@ A practice repo for deployment
 
 ### authorship + version
 
-`@ajguerrero39` \| `2026-09-12` \| `HOTEL`
+`@ajguerrero39` \| `2026-10-13` \| `HOTEL`
 
 ### deployments, codebase, & repo features 
   ---------------------------- ----------------------
-  PROD codebase                [`main`](URL)
-  PROD server                  [GCP](URL)
-  DEV codebase                 [`dev`](URL)
-  DEV server                   [Render](URL)
-  docs                         [`docs/`](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/main/public/docs)
-  published docs               [GitHub Pages](https://github.com/ajguerrero39-hub/charlie-brain-bucket/deployments/github-pages)
-  CI/CD workflow               [`deploy.yml`](URL)
-  successful PROD deployment   [GitHub Action](URL)
+| MongoDB connection | [server code](URL) |
+| GET all | [endpoint code](URL) |
+| GET one | [endpoint code](URL) |
+| filtered GET | [endpoint code](URL) |
+| POST / create | [endpoint code](URL) |
+| PATCH / update | [endpoint code](URL) |
+| DELETE | [endpoint code](URL) |
+| frontend `fetch()` | [client code](URL) |
+| persistent CRUD | [PROD app](URL) |
+| HOTEL milestone | [milestone](URL) |
+| example issue | [issue 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/iss02) |
+| development branch | [branch](URL) |
+| feature → dev | [PR 3](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/3) |
+| dev → main | [PR 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/2) |
+| PROD deployment | [GitHub Action](URL) |
 
 ### user story
 
