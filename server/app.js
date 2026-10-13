@@ -56,6 +56,13 @@ app.get('/api/scores', async function(req, res) {
 
   }
 )
+app.delete('/api/scores', async function(req, res) {
+    const score = req.params.score;
+    console.log(score);
+    const result = await collection.deleteMany({score: {$exists: true}});
+    res.json(result);
+}
+)
 app.listen(3000, () => {
   console.log('Server is running on http://localhost:3000')
 })
