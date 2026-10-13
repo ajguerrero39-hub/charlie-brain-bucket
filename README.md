@@ -21,8 +21,8 @@ A practice repo for deployment
 | HOTEL milestone | [milestone](URL) |
 | example issue | [issue 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/iss02) |
 | development branch | [branch](URL) |
-| feature → dev | [PR 3](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/3) |
-| dev → main | [PR 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/2) |
+| feature → dev | [PR 4](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/4) |
+| dev → main | [PR 5](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/5) |
 | PROD deployment | [GitHub Action](URL) |
 
 ### user story
