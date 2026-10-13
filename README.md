@@ -10,31 +10,25 @@ A practice repo for deployment
 ### deployments, codebase, & repo features 
   ---------------------------- ----------------------
 | MongoDB connection | [server code](URL) |
-| GET all | [endpoint code](URL) |
-| GET one | [endpoint code](URL) |
-| filtered GET | [endpoint code](URL) |
-| POST / create | [endpoint code](URL) |
-| PATCH / update | [endpoint code](URL) |
-| DELETE | [endpoint code](URL) |
-| frontend `fetch()` | [client code](URL) |
-| persistent CRUD | [PROD app](URL) |
+| GET all | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
+| POST / create | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
+| PATCH / update | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
+| DELETE | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
+| frontend `fetch()` | [client code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/public/scripts/game-logic.js)|
+| persistent CRUD | [PROD app](https://github.com/ajguerrero39-hub/charlie-brain-bucket) |
 | HOTEL milestone | [milestone](URL) |
 | example issue | [issue 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/iss02) |
-| development branch | [branch](URL) |
-| feature → dev | [PR 3](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/3) |
-| dev → main | [PR 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/2) |
+| development branch | [dev](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)|
+| feature → dev | [PR 6](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/6) |
+| dev → main | [PR 7](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/7) |
 | PROD deployment | [GitHub Action](URL) |
 
 ### user story
 
 - **As a** burgeoning full-stack developer,
-- **I want** a CI/CD infrastructure
-- **so that** I can develop locally, manage my code in GitHub, and
-    automatically deploy changes to DEV and PROD environments.
+- **I want** a client/server connection
+- **so that** I can create, update, and delete data from a remote database through a frontend web app
 
-### narrative
-
-I have created an architecture that allows for the deployment of this repository through Google Cloud. This is mostly setup so that future projects may follow suit.
 
 ### architecture
 
@@ -86,6 +80,8 @@ repo/
 |    |    |   L___auth.html
 |    |    |   L___content.html
 |    |    |   L___form.html
+|    |    L___scripts/
+|    |    |   L___game-logic.js
 |    |    L___index.html
 ├── server/
 |    L___ app.js
