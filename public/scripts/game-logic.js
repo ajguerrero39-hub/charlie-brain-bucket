@@ -1,5 +1,6 @@
 const start = document.getElementById("start-button");
 const reset = document.getElementById("reset-button");
+const resetRecords = document.getElementById("reset-records-button");
 var playerScore = 0;
 var opponentScore = 0;
 var highScore = 0;
@@ -87,6 +88,18 @@ console.log(data);
     document.getElementById("result").innerHTML = "";
     document.getElementById("game-count").innerHTML = gamecounter;
     clearAllImages();
+});
+resetRecords.addEventListener("click", async function () {
+    const response =
+          await fetch(
+            '/api/scores',
+            {
+              method: 'DELETE'
+            }
+          );
+    const data = await response.json();
+    console.log(data);
+    document.querySelector('#records').textContent = "Records: 0";
 });
 document.getElementById("easter-egg").addEventListener("click", function () {
     alert("Congratulations! You found the easter egg!");
