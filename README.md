@@ -9,14 +9,13 @@ A practice repo for deployment
 
 ### deployments, codebase, & repo features 
   ---------------------------- ----------------------
-| MongoDB connection | [server code](URL) |
+| MongoDB connection | [server code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js)|
 | GET all | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
 | POST / create | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
 | PATCH / update | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
 | DELETE | [endpoint code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/server/app.js) |
 | frontend `fetch()` | [client code](https://github.com/ajguerrero39-hub/charlie-brain-bucket/blob/main/public/scripts/game-logic.js)|
 | persistent CRUD | [PROD app](https://github.com/ajguerrero39-hub/charlie-brain-bucket) |
-| HOTEL milestone | [milestone](URL) |
 | example issue | [issue 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/iss02) |
 | development branch | [dev](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)|
 | feature → dev | [PR 6](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/6) |
