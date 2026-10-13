@@ -11,8 +11,6 @@ A practice repo for deployment
   ---------------------------- ----------------------
 | MongoDB connection | [server code](URL) |
 | GET all | [endpoint code](URL) |
-| GET one | [endpoint code](URL) |
-| filtered GET | [endpoint code](URL) |
 | POST / create | [endpoint code](URL) |
 | PATCH / update | [endpoint code](URL) |
 | DELETE | [endpoint code](URL) |
@@ -20,7 +18,7 @@ A practice repo for deployment
 | persistent CRUD | [PROD app](URL) |
 | HOTEL milestone | [milestone](URL) |
 | example issue | [issue 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/iss02) |
-| development branch | [branch](URL) |
+| development branch | [branch](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)|
 | feature → dev | [PR 4](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/4) |
 | dev → main | [PR 5](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/5) |
 | PROD deployment | [GitHub Action](URL) |
