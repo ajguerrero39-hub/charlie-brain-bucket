@@ -20,7 +20,7 @@ A practice repo for deployment
 | development branch | [dev](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)|
 | feature → dev | [PR 6](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/6) |
 | dev → main | [PR 7](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/7) |
-| PROD deployment | [GitHub Action](URL) |
+| PROD deployment | [GitHub Action](https://github.com/ajguerrero39-hub/charlie-brain-bucket/actions/runs/38476911983) |
 
 ### user story
 
