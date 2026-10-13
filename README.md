@@ -18,7 +18,7 @@ A practice repo for deployment
 | persistent CRUD | [PROD app](URL) |
 | HOTEL milestone | [milestone](URL) |
 | example issue | [issue 2](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/iss02) |
-| development branch | [branch](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)|
+| development branch | [dev](https://github.com/ajguerrero39-hub/charlie-brain-bucket/tree/dev)|
 | feature → dev | [PR 4](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/4) |
 | dev → main | [PR 5](https://github.com/ajguerrero39-hub/charlie-brain-bucket/pull/5) |
 | PROD deployment | [GitHub Action](URL) |
@@ -84,6 +84,8 @@ repo/
 |    |    |   L___auth.html
 |    |    |   L___content.html
 |    |    |   L___form.html
+|    |    L___scripts/
+|    |    |   L___game-logic.js
 |    |    L___index.html
 ├── server/
 |    L___ app.js
