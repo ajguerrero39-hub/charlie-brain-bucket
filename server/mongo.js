@@ -48,7 +48,7 @@ const seedData = [
 // run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, '../public', 'hotel.html'));
+  res.sendFile(join(__dirname, '../public', 'index.html'));
 })
 
 
